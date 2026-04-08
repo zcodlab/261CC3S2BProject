@@ -68,7 +68,7 @@
             </div>            
         </section>
         <!--Screen 3: Dashboard-->
-        <section id="screen-dashboard" class="screen active">
+        <section id="screen-dashboard" class="screen">
             <h2>Mesa de Partes</h2>
             <p>Estimada <strong>ZORAIDA EMPERATRIZ</strong>, por este canal virtual podra presentar documentos de forma rapida sin necesidad de acercarse a la Mesa de Partes del RENIEC</p>
             <div class="dashboard-grid">
@@ -83,8 +83,59 @@
                     <h3>Mis Documentos</h3>
                     <p>Consulte sus tramite realizados</p>
                 </div>
-
             </div>
+        </section>
+        <!--Screen 4: Mis Documentos (Inbox)-->
+        <section id="screen-inbox" class="screen active">
+            <h2>Bandeja de mis Documentos tramitados</h2>
+            <div class="inbox-filters">
+                <div class="form-group form-group-no-margin" >
+                    <label>Filtro de Documentos</label>
+                    <input type="text" placeholder="Buscar por numero o asunto">
+                </div>
+                <div class="form-group form-group-no-margin" >
+                    <label>Fecha Desde</label>
+                    <input type="date">
+                </div>
+                <div class="form-group form-group-no-margin" >
+                    <label>Fecha Hasta</label>
+                    <input type="date">
+                </div>                
+            </div>
+            <div class="flex-end mt-20">
+                <button class="btn btn-accent">Consultar</button>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nro Documento</th>
+                        <th>Tipo Documento</th>
+                        <th>Asunto</th>
+                        <th>Estado</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>202415235</td>
+                        <td>SOLICITUD</td>
+                        <td>RECTIFICACION DE DATOS</td>
+                        <td>EN TRAMITE</td>
+                        <td>22/03/2026</td>
+                    </tr>
+                    <tr>
+                        <td>202615280</td>
+                        <td>CARTA</td>
+                        <td>RECTIFICACION DE FOTO</td>
+                        <td>FINALIZADO</td>
+                        <td>15/03/2026</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+            
 
         </section>
 
