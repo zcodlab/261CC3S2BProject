@@ -16,3 +16,17 @@ header {
     display: flex;
     justify-content: space-between;    
 }
+
+.logo-text {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--text-dark);
+}
+.logo-dot-pe {
+    color: #d43d33;}
+
+.app-title {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
