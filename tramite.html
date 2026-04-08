@@ -33,7 +33,7 @@
             </div>
         </section>
         <!--Screen 2: Validacion-->
-        <section id="screen-validation" class="screen active">
+        <section id="screen-validation" class="screen">
             <h2>Validacion</h2>
             <p class="screen-description">Estimado usuario para realizar su tramite en linea primero debe validar sus datos</p>
             <div class="grid-2-cols">
@@ -62,14 +62,31 @@
                 <label for="accept-terms" class="label-inline">Acepto los 
                     <a href="#" onclick="openModal()"  class="link-primary">Terminos y condiciones</a></label>
             </div>
-
             <div class="flex-end mt-20">
                 <button class="btn btn-secondary" onclick="showScreen('status')">Atras</button>
                 <button class="btn btn-primary" onclick="showScreen('dashboard')">Validar</button>
             </div>            
+        </section>
+        <!--Screen 3: Dashboard-->
+        <section id="screen-dashboard" class="screen active">
+            <h2>Mesa de Partes</h2>
+            <p>Estimada <strong>ZORAIDA EMPERATRIZ</strong>, por este canal virtual podra presentar documentos de forma rapida sin necesidad de acercarse a la Mesa de Partes del RENIEC</p>
+            <div class="dashboard-grid">
+                <div class="card" onclick="showScreen('registration')">
+                    <div class="card-icon">📕</div>
+                    <h3>Registro de Documentos</h3>
+                    <p>Presente un nuevo tramite</p>
+                </div>
+
+                <div class="card" onclick="showScreen('inbox')">
+                    <div class="card-icon">📁</div>
+                    <h3>Mis Documentos</h3>
+                    <p>Consulte sus tramite realizados</p>
+                </div>
+
+            </div>
 
         </section>
-
 
     </div>
 
