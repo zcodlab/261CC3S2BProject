@@ -1,0 +1,18 @@
+/*definiendo variables globales*/
+:root {
+    --primary-color: #701130;
+    --secondary-color: #91123a;
+    --accent-color: #ff4c00;
+    --bg-light: #f9f9f9;
+    --border-color: #ddd;
+    --text-dark: #333;
+    --white: #ffffff;
+}
+
+header {
+    background-color: var(--white);
+    border-bottom: 3px solid var(--primary-color);
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;    
+}
