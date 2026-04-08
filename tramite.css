@@ -107,3 +107,50 @@ input[type="text"], input[type="date"], select {
 .btn-primary:hover {
     background-color: var(--secondary-color);
 }
+
+.screen {
+    display: none;
+}
+
+.screen.active {
+    display: block;
+}
+
+.screen-description {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.grid-2-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.flex-gap-10 {
+    display: flex;
+    gap: 10px;
+}
+
+.captcha-box {
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: cursive;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.label-inline {
+    display: inline;
+}
+.terms-container {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
