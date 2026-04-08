@@ -47,3 +47,13 @@ header {
     padding: 20px;
     border-top: 1px solid #eee;
 }
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: var(--white);    
+    padding: 40px;
+    box-shadow: 0 4x 15px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    min-height: 400px;
+}
